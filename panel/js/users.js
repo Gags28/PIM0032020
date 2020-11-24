@@ -86,10 +86,10 @@ users.editSubmit = function(btn) {
     console.log(cliente)
 
     if (cliente.id && cliente.nome && cliente.cpfcnpj && cliente.cpfcnpj && cliente.datanascimento && cliente.email && cliente.telcli_01 && cliente.telcli_02) {
-        request.post('cliente', function(res) {
+        request.put('cliente/' + cliente.id, function(res) {
             console.log(res)
             setTimeout(function() {
-                // window.location.href = session.host + 'panel/home.html'
+                window.location.href = session.host + 'panel/home.html'
                 helper.removeLoading()
             }, 1000)
 

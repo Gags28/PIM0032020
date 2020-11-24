@@ -1,8 +1,6 @@
 const request = {}
 
-request.url = "http://127.0.0.1:3000/"
-
-
+request.url = "http://adspim-com-br.umbler.net/"
 
 request.post = function(path, callback, params = {}) {
 
