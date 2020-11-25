@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": "..\\pim-app"
+		},
+		{
+			"path": "..\\pim-node"
+		},
+		{
+			"path": "."
+		}
+	],
+    "settings": {}
+}
