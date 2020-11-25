@@ -1,6 +1,6 @@
 const session = {}
 
-session.host = 'http://localhost/PIM0032020-master'
+session.host = 'http://localhost/PIM0032020-master/'
 
 session.set = function(key, value) {
     localStorage.setItem(key, JSON.stringify(value));
